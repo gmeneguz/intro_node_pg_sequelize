@@ -1,0 +1,10 @@
+version: '2'
+services:
+  db_pg:
+    image: postgres:9.6
+    ports:
+     - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./data/pg:/var/lib/postgresql/data
