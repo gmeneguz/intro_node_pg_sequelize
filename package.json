@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "pg": "^7.8.1"
+    "pg": "^7.18.2"
   },
   "devDependencies": {},
   "scripts": {},
